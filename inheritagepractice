@@ -1,0 +1,14 @@
+# class A:
+#     def method1 (self):
+#         print("Основной функционал")
+# class B(A):
+#     def method1(self):
+#         super().method1()
+#         print("Дополнительный функционал")
+# obj = B()
+# obj.method1()  
+a =A()
+b= B()
+c= C()
+print(isinstance(c,A))
+print(isinstance(c,B))
